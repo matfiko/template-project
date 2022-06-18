@@ -74,7 +74,7 @@ img {
     padding-inline: var(--spacingSm);
     display: grid;
     justify-items: center;
-    border: 1px solid red;
+    border: 1px solid orange;
 }
 
 .section__container {
