@@ -72,7 +72,7 @@ img {
 
 .section {
     padding-inline: var(--spacingSm);
-    display:grid;
+    display: grid;
     justify-items: center;
     border: 1px solid red;
 }
