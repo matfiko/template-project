@@ -1,10 +1,11 @@
 @import "./_constants.scss";
 
+@import "./section.scss";
+
 @import "./footer.scss";
 @import "./header.scss";
 @import "./hero.scss";
 @import "./nav.scss";
-@import "./section.scss";
 
 *, *::before, *::after {
     box-sizing: border-box;

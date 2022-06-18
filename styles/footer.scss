@@ -1,3 +1,8 @@
 .footer {
+    @extend .section;
     margin-top: var(--sectionSpacing);
+
+    &__container {
+        @extend .section__container;
+    }
 }
