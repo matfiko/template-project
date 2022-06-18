@@ -1,0 +1,58 @@
+@import "./_constants.scss";
+
+@import "./footer.scss";
+@import "./header.scss";
+@import "./hero.scss";
+@import "./nav.scss";
+@import "./section.scss";
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    /*
+        It will be changing depending on viewport
+        and is used by .main and .footer,
+        so it has to be put inside one of their parent
+        to be visible by them both
+    */
+    --sectionSpacing: var(--spacingMd);
+}
+
+body {
+    margin: 0;
+    color: var(--colorDefault);
+    font-family: var(--fontDefault);
+    font-size: var(--fontSizeSm);
+    font-weight: 400;
+    overflow-y: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+#root {
+    height: 100vh;
+    border: 2px solid green;
+    overflow-y: scroll;
+}
+
+#portal {
+    position: fixed;
+    inset: 0;
+}
+
+#portal:empty {
+    display: none;
+}
+
+.main {
+    display: grid;
+    gap: var(--sectionSpacing);
+}

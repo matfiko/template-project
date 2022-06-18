@@ -1,0 +1,15 @@
+.section {
+    padding-inline: var(--spacingSm);
+    display: grid;
+    justify-items: center;
+    border: 1px solid orange;
+
+    &__container {
+        width: min(100%, var(--containerXl));
+        border: 1px solid blue;
+    }
+
+    &__heading {
+        font-size: 2em;
+    }
+}

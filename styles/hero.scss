@@ -1,0 +1,23 @@
+.hero {
+    position: relative;
+    min-height: 500px;
+
+    &__bg {
+        position: absolute;
+        inset: 0;
+        z-index: -1;
+        background-color: pink;
+
+        @media (min-width: 768px) {
+            background-color: darkturquoise;
+        }
+    }
+
+    &__container {
+        height: 100%;
+    }
+
+    &__heading {
+        font-size: 3em;
+    }
+}

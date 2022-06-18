@@ -1,0 +1,11 @@
+.nav {
+    &__links {
+        list-style: none;
+        display: flex;
+        gap: var(--spacingMd);
+    }
+    
+    &__link {
+        text-decoration: none;
+    }
+}

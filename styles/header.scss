@@ -1,0 +1,19 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: var(--zIndexHeader);
+    height: var(--headerHeight);
+    background-color: var(--colorBackground);
+
+    &__container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--spacingMd);
+    }
+
+    &__logo {
+        cursor: pointer;
+    }
+}
